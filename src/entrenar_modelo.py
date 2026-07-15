@@ -64,11 +64,7 @@ def guardar_modelo(pipeline):
 
 
 if __name__ == "__main__":
-    from cargar_datos import cargar_datos
+
     from limpiar_datos import preparar_datos
 
-    df_original = cargar_datos()
-    df_limpio = preparar_datos(df_original)
 
-    modelo = entrenar_modelo(df_limpio)
-    guardar_modelo(modelo)
