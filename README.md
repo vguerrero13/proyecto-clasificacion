@@ -99,3 +99,24 @@ ________________________________________
 - [Documentación de Scikit-learn](https://scikit-learn.org/stable/)
 - [Guía básica de Markdown](https://www.markdownguide.org/basic-syntax/)
 
+# Métricas del modelo logístico
+
+El modelo de clasificación se evalúa mediante las siguientes métricas.
+
+## Accuracy
+
+Representa la proporción total de predicciones correctas.
+
+## Precision
+
+Indica qué proporción de los casos clasificados como positivos
+realmente pertenece a la clase positiva.
+
+## Recall
+
+Indica qué proporción de los casos positivos reales fue identificada
+correctamente por el modelo.
+
+## F1-score
+
+Combina precision y recall mediante una media armónica.
